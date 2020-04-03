@@ -42,7 +42,7 @@
       <div class="row">
           <div class="col-md-6 col-sm-6">
                 <div class="showcase-left">
-                  <img src="princess.jpg" alt="Princess" width="900" height="600">
+                  <img src="img/princess.jpg" alt="Princess" width="900" height="600">
                 </div>
           </div>
 
@@ -61,7 +61,7 @@
 
 <section id="product">
   
-    <h1 style="text-align:left;">Products</h1>
+    <h1 style="text-align:center; bottom: 50%;">Products</h1>
     <div class="container">
     <div class="col">
       <div class="row-md-4 row-sm-4" id="originals">
@@ -86,6 +86,8 @@
 </div>  
 </section>
 
+<div class="pimg2"></div>
+
 <section id="signup">
   <div class="container">
       <div class="row">
@@ -95,7 +97,7 @@
             </div>
         </div>
         <div class="col-md-5 col-sm-5">
-          <div class="signup-right"></div>
+          <div class="signup-right">
             <form>
                 <div class="form-group">
                     <label for="email"><h2>Sign Up</h2></label>
@@ -105,10 +107,13 @@
                     <button class="btn btn-default btn-success">Submit</button>
                 </div>
             </form>
+          </div>
         </div>
       </div>
   </div>
 </section>
+
+<div class="pimg3"></div>
 
 <section id="contact"> 
   <div class="container">
@@ -157,12 +162,12 @@
       origin:'bottom'
     });
     sr.reveal('.showcase-left',{
-      duration:5000,
+      duration:3000,
       origin:'top',
       distance:'300px'
     });
     sr.reveal('.showcase-right',{
-      duration:5000,
+      duration:4000,
       origin:'right',
       distance:'300px'
     });
@@ -170,6 +175,22 @@
       duration:5000,
       dealy:2000,
       origin:'bottom',
+      distance:'300px'
+    });
+    sr.reveal('#home div',{
+      duration:5000,
+      origin:'bottom'
+    }),
+    sr.reveal('.signup-left',{
+      duration:500,
+      viewFactor:0.1,
+      origin:'left',
+      distance:'300px'
+    }),
+    sr.reveal('.signup-right',{
+      duration:5000,
+      viewFactor:0.2,
+      origin:'right',
       distance:'300px'
     })
 </script>
