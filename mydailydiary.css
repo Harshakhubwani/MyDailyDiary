@@ -41,7 +41,8 @@ p{
 }
 
 #home .showcase-right{
-    margin-top: 90px;
+    text-align: center;
+    margin-top: 230px;
 }
 
 #product{
@@ -85,20 +86,13 @@ footer{
 .pimg2{
    background-image: url(img/download.jpg);
    background-repeat: no-repeat;
-  min-height: 400px;
+  min-height: 200px;
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
 } 
 
-.pimg3{
-    background-image: url(img/download.jpg);
-    background-repeat: no-repeat;
-   min-height: 400px;
-   background-size:cover;
-   background-position: center;
-   background-attachment: fixed;
- } 
+
 
  #about{
     background: #000;
@@ -123,4 +117,10 @@ footer{
     font-weight: 100;
     font-size: larger;
 }
+
+#product{
+    background: black;
+    color: white;
+}
+
  
