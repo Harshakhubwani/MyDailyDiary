@@ -1,2 +1,2 @@
 # MyDailyDiary
-My daily diary is project based on a commercial art website which allow users to access all the information and accessories an artist would provide to his customer. 
+My daily diary is project based on a commercial art website which allow an artist to showcase his talent and sell his work to his customer. 
